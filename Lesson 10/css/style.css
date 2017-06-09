@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+   }
+
+   html{
+   	font-size:10px;
+   	font-family: 'Open Sans', sans-serif;
+   }
+
+
+.heder__work{
+	margin:0;
+	padding-top:8.6rem;
+	font-size: 5rem;
+	font-weight: 600;
+	text-align: center;
+
+	
+
+}
+#red{
+	color:#fc6744;
+	padding-right:1rem;
+}
+#p{
+padding-top:0.8rem;
+font-size:1.6rem;
+font-weight:400;
+color: rgba(65, 65, 65, 0.7);
+text-align: center;
+
+
+
+
+}
+.main{
+	padding-top:8.4rem;
+	text-align: center;
+}
+
+button{
+	display:inline-block;
+	position:absolute;
+	top:23.2rem;
+	left:1.6rem;
+	width:22.8rem;
+	height:5.5rem;
+	border-radius: 2.7rem;
+    color:#303030;
+    font-size:1.6rem;
+    font-weight:400;
+    background-color:#fff;
+    border:#fff;
+    box-shadow: 3px 5px 14px 0px rgba(20, 20, 21, 0.09);
+
+
+}
+
+.fa-plus{
+    color:#303030;
+	width:1.6rem;
+	height:0.2rem;
+	padding-right:1.9rem;
+
+	
+}
+
+
+.icon__koc {
+	background-color:  #4eb2f7;
+	display: inline-block;
+	position: relative;
+	padding-top: 5rem;
+	width: 26.2rem;
+    height: 26.3rem;
+}
+
+.icon__koimana{
+	background-color:  #c049f8;
+	display: inline-block;
+	position: relative;
+	padding-top: 5rem;
+	width: 26.2rem;
+    height: 26.3rem;
+
+}
+
+.icon__setting{
+	background-color:  #817eff;
+	display: inline-block;
+	position: relative;
+	padding-top: 5rem;
+	width: 26.2rem;
+    height: 26.3rem;
+}
+
+.icon__image-ko{
+	background-color:  #f74770;
+	display: inline-block;
+	position: relative;
+	padding-top: 5rem;
+	width: 26.2rem;
+    height: 26.3rem;
+}
+
+.fa-magnet, .fa-bug, .fa-cogs, .fa-camera-retro,p,h2{
+	color:rgba(255, 255, 255, 0.8);
+	
+}
+h2{
+	padding-top:2rem;
+}
+
+p{
+	padding-top:2rem;
+}
