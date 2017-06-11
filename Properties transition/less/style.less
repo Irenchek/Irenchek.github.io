@@ -1,0 +1,315 @@
+@font-face {
+  font-family: 'Tahoma';
+  src: url('founts/Tahoma.eot');
+  src: url('founts/Tahoma.eot?#iefix') format('embedded-opentype'), url('founts/Tahoma.woff2') format('woff2'), url('founts/Tahoma.woff') format('woff'), url('founts/Tahoma.ttf') format('truetype'), url('founts/Tahoma.svg#Tahoma') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Geneva';
+  src: url('founts/GenevaNormal.eot');
+  src: url('founts/GenevaNormal.eot?#iefix') format('embedded-opentype'), url('founts/GenevaNormal.woff2') format('woff2'), url('founts/GenevaNormal.woff') format('woff'), url('founts/GenevaNormal.ttf') format('truetype'), url('founts/GenevaNormal.svg#GenevaNormal') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.trs(@property:all;@time:0.3s){
+	-webkit-transition: @property @time;
+     -moz-transition: @property @time;
+       -o-transition: @property @time;
+          transition: @property @time;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  background:#606670;
+
+}
+
+.conteiner {
+  width:1170px;
+  position: absolute;
+  padding-left: 110px;
+}
+
+.main__header {
+    padding: 30px 0px;
+    font-family: 'Tahoma';
+    font-weight:normal;
+    color: #CE8F35;
+    font-size: 20px;
+    background-color:#4F555F;
+  }
+
+.box__mumiya {
+  .trs(all; 2s);
+width:200px;
+height:300px;
+background: url('../img/Мумия .jpg') no-repeat center center;
+background-size: cover;
+}
+
+.wrap__mumiya{
+  display: flex;
+  height:100%;
+  justify-content: center;
+  align-items: center;
+  color:#fff;
+  cursor: pointer;
+  .trs(all; 2s);
+  opacity: 0;
+
+   &:hover{
+     background-color:rgba(0,0,0,.9);
+     opacity: 1;
+
+   }
+}
+  
+  .sign__mumiya{
+  width:200px;
+  text-align:center;
+  text-align: justify;
+   p{
+     color:#fff;
+     text-align: justify;
+     padding: 5px 10px;
+     font-size:13.5px;
+     &:hover{
+       -webkit-transform: rotate(-180deg); 
+         transform: rotate(-180deg);
+     }
+   }
+}
+
+
+.box__spasateli {
+  .trs(all; 2s);
+width:200px;
+height:300px;
+background: url('../img/Спасатели малибу.jpg') no-repeat center center;
+background-size: cover;
+}
+
+.wrap__spasateli{
+  display: flex;
+  height:100%;
+  justify-content: center;
+  align-items: center;
+  color:#fff;
+  cursor: pointer;
+  .trs(all; 2s);
+  opacity: 0;
+
+   &:hover{
+     background-color:rgba(0,0,0,.9);
+     opacity: 1;
+
+   }
+}
+
+ .sign__spasateli{
+  width:200px;
+  text-align:center;
+  text-align: justify;
+   p{
+     color:#fff;
+     text-align: justify;
+     padding: 5px 10px;
+     font-size:13.5px;
+      &:hover{
+       -webkit-transform: rotate(-180deg); /* Safari */
+         transform: rotate(-180deg);
+     }
+   }
+}
+
+
+.box__piraty {
+  .trs(all; 2s);
+width:200px;
+height:300px;
+background: url('../img/Пираты Карибского моря.jpg') no-repeat center center;
+background-size: cover;
+}
+
+.wrap__piraty{
+  display: flex;
+  height:100%;
+  justify-content: center;
+  align-items: center;
+  color:#fff;
+  cursor: pointer;
+  .trs(all; 2s);
+  opacity: 0;
+
+   &:hover{
+     background-color:rgba(0,0,0,.9);
+     opacity: 1;
+
+   }
+}
+ .sign__piraty{
+  width:200px;
+  text-align:center;
+  text-align: justify;
+   p{
+     color:#fff;
+     text-align: justify;
+     padding: 5px 10px;
+     font-size:13.5px;
+      &:hover{
+       -webkit-transform: rotate(-180deg); 
+         transform: rotate(-180deg);
+     }
+
+   }
+
+}
+
+
+.box__mech {
+  .trs(all; 2s);
+width:200px;
+height:300px;
+background: url('../img/Меч короля Артура.jpg') no-repeat center center;
+background-size: cover;
+}
+
+.wrap__mech{
+  display: flex;
+  height:100%;
+  justify-content: center;
+  align-items: center;
+  color:#fff;
+  cursor: pointer;
+  .trs(all; 2s);
+  opacity: 0;
+
+   &:hover{
+     background-color:rgba(0,0,0,.9);
+     opacity: 1;
+
+   }
+}
+ .sign__piraty{
+  width:100%;
+  text-align:center;
+  text-align: justify;
+
+   p{
+    color:#fff;
+     text-align: justify;
+     padding: 5px 10px;
+     font-size:13.5px;
+      &:hover{
+       -webkit-transform: rotate(-180deg); /* Safari */
+         transform: rotate(-180deg);
+     }
+   }
+
+}
+
+
+.btn{
+  display: inline-block;
+  color: #fff;
+  background-color: #EB6C65;
+  padding: 2px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 200px;
+  height: 45px;
+  font-family: Geneva, sans-serif;
+  border: #EB6C65;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+
+      &:hover {
+      background-color: #F24940;
+    }
+}
+
+ul li:nth-of-type(2n+1) {
+  background-color: #4f555f;
+}
+li {
+  display: inline-block;
+  width: 245px;
+  height: 30px;
+  font-family: Geneva, sans-serif;
+  color: #9CA2AD;
+  padding-top: 5px;
+}
+
+#s{
+  background-color: #4f555f;
+}
+
+.footer {
+  display: inline-block;
+  width: 100%;
+  height: 80px;
+  background-color: #202831;
+  text-align: center;
+  font-size: 18px;
+  font-family: Tahoma, sans-serif;
+  padding-top: 15px;
+}
+
+.box__mumiya, .box__spasateli,.box__piraty, .box__mech{
+  display:inline-block;
+  width:250px;
+  height:350px;
+  -webkit-transition: width 2s, height 2s, -webkit-transform 2s; 
+  transition: width 2s, height 2s, transform 2s;
+  position:relative;
+
+
+}
+
+.box__mumiya:hover{
+  width:500px;
+  height:700px;
+  background-color: #fff;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  z-index: 10;
+
+}
+
+.box__spasateli:hover{
+  width:500px;
+  height:700px;
+  background-color: #fff;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  z-index: 10;
+}
+.box__piraty:hover{
+  width:500px;
+  height:700px;
+  background-color: #fff;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  z-index: 10;
+}
+
+.box__mech:hover{
+  width:500px;
+  height:700px;
+  background-color: #fff;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  z-index: 10;
+}
+
+
+
+
+
