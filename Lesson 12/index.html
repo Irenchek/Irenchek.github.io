@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Гарри Поттер</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <section class="main">
+      <div class="container_fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="title">
+              <h1>Гарии Поттер колекция (комплект из 7 книг)</h1>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-md-6 ">
+            <div class="book_img">
+                <img src ="img/book.png" alt="Гарри потер">
+            </div>
+          </div>
+
+          <div class="col-md-6 ">
+              <div class="description">
+                  <h2>Описание книги</h2><br>
+                     <table>
+                       <tr>
+                         <td id="td">Автор: </td>
+                         <td>Джоан Роулинг</td>
+                       </tr>
+                       <tr>
+                         <td id="td">Издательство:</td>
+                         <td>А-ба-ба-га-ла-ма-га</td>
+                       </tr>
+                       <tr>
+                         <td id="td">Серия книг:</td>
+                         <td>Гарри Потте</td>
+                       </tr>
+                       <tr>
+                         <td id="td">Язык:</td>
+                         <td>Русский</td>
+                       </tr>
+                       <tr>
+                         <td id="td"> Год издания: </td>
+                         <td>2016</td>
+                       </tr>
+                       <tr>
+                         <td id="td"> Переводчик:</td>
+                         <td>Виктор Морозов</td>
+                       </tr>
+                     </table>
+                  
+                  <div class="p">
+                    <p>История парня-сироты, который узнает о существовании параллельного мира, в котором ему уже давно забронировано одно из определяющих мест, где его ждут отчаянные и преданные друзья и злейшие враги и коварные воры. С момента выхода первой книги о Гарри Поттере нет никакой ребенка, который бы не стремился учиться в Гриффиндор и играть по их команду в квиддич.
+
+                    Книга, рекламировать которая была бы лишним. Нет никакого сомнения, что цикл приключений мальчика-волшебника и его друзей следует изучать в школьной программе по зарубежной литературе, а серьезные исследования и диссертации на его почве существуют уже сегодня.
+
+                    "Гарри Поттер. Полная коллекция (комплект из 7 книг) »- теперь приобрести полное собрание можно одним заказом. Яркие обложки, качественная печать и прекрасный перевод от издательства «А-ба-ба-га-ла-ма-га» - прекрасный подарок поклонникам творчества Джоан Роулинг и литературного украинского перевода.</p>
+                    </div>
+              </div>
+                 <div class="button">
+                    <a href="#modal-1">Оформить заказ</a> 
+                 </div>
+                
+          </div>
+        </div>
+
+      <footer> 
+        <div class="row">
+          <div class="col-md-12">
+            <div class="footer">© Все права защищены</div>
+          </div>
+        </div>
+      </footer>
+
+         <div class="popup-overlay" id="modal-1">
+           <div class="popup">
+             <h2 id="h2">Оформление заказа</h2>
+
+
+            <popup id="contactform" name="contact" method="post" action="#">
+        <p class="note"><span class="req"></span><b>Контактная информация</b></p>
+            <div class="row row-in">
+                <label for="name">Имя получателя: <span class="req">*</span></label>
+                <input type="text" name="name" id="name" class="txt" tabindex="1" placeholder="" required>
+            </div>
+
+            <div class="row row-in">
+                <label for="email">E-mail: <span class="req">*</span></label>
+                <input type="email" name="email" id="email" class="txt" tabindex="2" placeholder="" required>
+                </div>
+
+            <div class="row row-in">
+                <label for="subject">Телефон: <span class="req">*</span></label>
+                <input type="text" name="subject" id="subject" class="txt" tabindex="3" placeholder="" required>
+                </div>
+
+            <div class="row row-in">
+                <label for="message">Коментарий к заказу: </label>
+                <textarea name="message" id="message" class="txtarea" tabindex="4" required></textarea>
+                </div>
+
+            <div class="center">
+                <input type="submit" id="submitbtn" name="submitbtn" tabindex="5" value="Подтвердить заказ">
+                </div>
+        </popup>
+
+              <a href="#close" class="popup-close">&times;</a>  
+          </div>
+        </div>
+       
+ 
+      </div>
+    </section>
+     
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
