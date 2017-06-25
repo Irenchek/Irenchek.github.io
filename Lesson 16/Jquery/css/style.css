@@ -1,0 +1,114 @@
+body {
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+.menu {
+  /*--Список--*/
+}
+.menu-link {
+  z-index: 9;
+  display: block;
+  width: 5rem;
+  height: 5rem;
+  background-color: #fff;
+  border-radius: 50%;
+  -webkit-box-shadow: 0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.4);
+          box-shadow: 0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 2rem;
+  left: 2rem;
+  /*--Гамбургер--*/
+}
+.menu-link span,
+.menu-link span:before,
+.menu-link span:after {
+  display: block;
+  height: 0.2rem;
+  width: 1.8rem;
+  position: absolute;
+  left: 50%;
+  margin-left: -0.9rem;
+  top: 50%;
+  margin-top: -0.1rem;
+  background-color: #333;
+}
+.menu-link span:before {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  content: '';
+  margin-top: -0.6rem;
+}
+.menu-link span:after {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  content: '';
+  margin-top: 0.4rem;
+}
+.menu-link_active span {
+  background-color: transparent;
+}
+.menu-link_active span:before {
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+  margin-top: 0;
+}
+.menu-link_active span:after {
+  -webkit-transform: rotate(-135deg);
+          transform: rotate(-135deg);
+  margin-top: 0;
+}
+.menu-list {
+  opacity: 0.9;
+  background-color: #FFB89B;
+  padding-left: 0rem;
+  margin-bottom: 0rem;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  display: block;
+  list-style: none;
+  padding-top: 15%;
+  left: -100vw;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.menu-list_active {
+  left: 0;
+}
+.menu-list li {
+  text-align: center;
+}
+.menu-list li a {
+  display: block;
+  width: 100%;
+  color: #fff;
+  line-height: 2.5;
+  font-size: 3rem;
+  text-transform: uppercase;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.menu-list li a:hover {
+  background-color: #FFCBB6;
+  text-decoration: none;
+}
+section {
+  padding: 5rem 3rem;
+  height: 100vh;
+}
+h2 {
+  display: block;
+  height: 5rem;
+  padding-top: 1rem;
+  text-align: center;
+  background-color: #E2E2E6;
+}
+.image {
+  float: left;
+  margin: 4rem 3rem 0 0rem;
+}
+.p {
+  font-size: 2rem;
+  padding-top: 6rem;
+}
