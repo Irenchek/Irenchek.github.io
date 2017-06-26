@@ -1,0 +1,108 @@
+/* Font-fase*/
+
+@font-face {
+	font-family: 'Ubuntu';
+	src: url('../founts/Ubuntu-Bold.eot');
+	src: url('../founts/Ubuntu-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../founts/Ubuntu-Bold.woff2') format('woff2'),
+		url('../founts/Ubuntu-Bold.woff') format('woff'),
+		url('../founts/Ubuntu-Bold.ttf') format('truetype'),
+		url('../founts/Ubuntu-Bold.svg#Ubuntu-Bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Ubuntu';
+	src: url('../founts/Ubuntu-Regular.eot');
+	src: url('../founts/Ubuntu-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../founts/Ubuntu-Regular.woff2') format('woff2'),
+		url('../founts/Ubuntu-Regular.woff') format('woff'),
+		url('../founts/Ubuntu-Regular.ttf') format('truetype'),
+		url('../founts/Ubuntu-Regular.svg#Ubuntu-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/*-- Mixins--*/
+.ff-reg {
+	font-family: 'Ubuntu-Regular';
+}
+.ff-bold {
+	font-family: 'Ubuntu-Bold';
+}
+/*-- Colors--*/
+@blue: #0bbaf0;
+@grey: #535353;
+@white: #fff;
+@gray-light:#dcdcdc;
+
+
+
+html {
+	font-size: 10px;
+}
+body {
+	background: url(../img/bg.jpg);
+	.ff-reg;
+}
+
+
+h1 {
+	text-transform: uppercase;
+	.ff-bold;
+	font-size: 3.5rem;
+	color: @blue;
+}
+h2 { 
+	text-transform: uppercase;
+	color: @blue;
+	font-size: 2.4rem;
+}
+.main {
+	text-align: center;
+	a {
+		display: block;
+		line-height: 5.4rem;
+		color: @white;
+		text-decoration: none;
+		&:hover {
+          cursor:pointer;
+		}
+	}
+	p {
+		background-color: @white;
+		font-weight:400;
+		width:88.5rem;
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 1rem;
+		border-bottom-right-radius: 1rem;
+		border-bottom-left-radius: 10px;
+		border-bottom: 0.4rem solid @gray-light;
+		border-left: 0.4rem solid @gray-light;
+		border-right: 0.4rem solid @gray-light;
+		padding-left: 2rem;
+		text-align: left;
+		font-size: 2.2rem;
+	}
+}
+.accordion {
+	margin: 0 auto;
+	margin-bottom: 10rem;
+	margin-top: 5rem;
+	width: 90rem;
+	height: 5rem;
+}
+.tab-link {
+	margin-top: 1rem;
+	font-size: 2.3rem;
+	background-color: @blue;
+}
+.hiden {
+	display: none;
+}
+
+img{
+	width:37rem;
+	margin-top:3rem;
+}
